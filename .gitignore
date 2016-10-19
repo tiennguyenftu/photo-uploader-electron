@@ -1,1 +1,4 @@
 node_modules
+#Intelij
+.idea
+*.iml
