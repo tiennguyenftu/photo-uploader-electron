@@ -7,7 +7,7 @@ function createWindow () {
   mainWindow = new BrowserWindow();
   mainWindow.maximize();
 
-  mainWindow.loadURL(`file://${__dirname}/index.html`);
+  mainWindow.loadURL('http://localhost:3000');
 
   // Open the DevTools.
   // mainWindow.webContents.openDevTools();
